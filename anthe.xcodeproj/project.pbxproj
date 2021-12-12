@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7023D59D2764BE430036784A /* NFCReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7023D59C2764BE430036784A /* NFCReader.swift */; };
+		7023D5A02764E3BA0036784A /* ApexRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7023D59F2764E3BA0036784A /* ApexRemote.swift */; };
+		7023D5A227650E500036784A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7023D5A127650E500036784A /* LoadingView.swift */; };
+		7023D5A4276557B70036784A /* StudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7023D5A3276557B70036784A /* StudentView.swift */; };
 		707CBFEE27647AEF00F717FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CBFED27647AEF00F717FF /* AppDelegate.swift */; };
 		707CBFF027647AEF00F717FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CBFEF27647AEF00F717FF /* SceneDelegate.swift */; };
 		707CBFF227647AEF00F717FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CBFF127647AEF00F717FF /* ViewController.swift */; };
 		707CBFF527647AEF00F717FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707CBFF327647AEF00F717FF /* Main.storyboard */; };
 		707CBFF727647AF100F717FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707CBFF627647AF100F717FF /* Assets.xcassets */; };
 		707CBFFA27647AF100F717FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707CBFF827647AF100F717FF /* LaunchScreen.storyboard */; };
+		707CC00227647B9200F717FF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CC00127647B9200F717FF /* DetailView.swift */; };
+		707CC00427647BA600F717FF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CC00327647BA600F717FF /* MainView.swift */; };
+		707CC00927647D0300F717FF /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CC00827647D0300F717FF /* Photos.swift */; };
+		707CC00B27647D5900F717FF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CC00A27647D5900F717FF /* File.swift */; };
+		707CC00D27647E1800F717FF /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CC00C27647E1800F717FF /* FileManager.swift */; };
+		707CC00F27647E8700F717FF /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CC00E27647E8700F717FF /* String+extension.swift */; };
+		707CC01127647EC700F717FF /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CC01027647EC700F717FF /* Utility.swift */; };
+		707CC01327647F1900F717FF /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CC01227647F1900F717FF /* Shared.swift */; };
+		707CC0152764802B00F717FF /* Ajax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CC0142764802B00F717FF /* Ajax.swift */; };
+		707CC0172764811800F717FF /* ImageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CC0162764811800F717FF /* ImageFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7023D59C2764BE430036784A /* NFCReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCReader.swift; sourceTree = "<group>"; };
+		7023D59E2764C3020036784A /* anthe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = anthe.entitlements; sourceTree = "<group>"; };
+		7023D59F2764E3BA0036784A /* ApexRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexRemote.swift; sourceTree = "<group>"; };
+		7023D5A127650E500036784A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		7023D5A3276557B70036784A /* StudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentView.swift; sourceTree = "<group>"; };
 		707CBFEA27647AEF00F717FF /* anthe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anthe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		707CBFED27647AEF00F717FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		707CBFEF27647AEF00F717FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,16 @@
 		707CBFF627647AF100F717FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		707CBFF927647AF100F717FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		707CBFFB27647AF100F717FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707CC00127647B9200F717FF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		707CC00327647BA600F717FF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		707CC00827647D0300F717FF /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		707CC00A27647D5900F717FF /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		707CC00C27647E1800F717FF /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		707CC00E27647E8700F717FF /* String+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
+		707CC01027647EC700F717FF /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		707CC01227647F1900F717FF /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		707CC0142764802B00F717FF /* Ajax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ajax.swift; sourceTree = "<group>"; };
+		707CC0162764811800F717FF /* ImageFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,8 @@
 		707CBFEC27647AEF00F717FF /* anthe */ = {
 			isa = PBXGroup;
 			children = (
+				7023D59E2764C3020036784A /* anthe.entitlements */,
+				707CC00527647BE600F717FF /* Class */,
 				707CBFED27647AEF00F717FF /* AppDelegate.swift */,
 				707CBFEF27647AEF00F717FF /* SceneDelegate.swift */,
 				707CBFF127647AEF00F717FF /* ViewController.swift */,
@@ -63,8 +94,29 @@
 				707CBFF627647AF100F717FF /* Assets.xcassets */,
 				707CBFF827647AF100F717FF /* LaunchScreen.storyboard */,
 				707CBFFB27647AF100F717FF /* Info.plist */,
+				707CC00127647B9200F717FF /* DetailView.swift */,
+				7023D5A3276557B70036784A /* StudentView.swift */,
+				7023D5A127650E500036784A /* LoadingView.swift */,
+				707CC00327647BA600F717FF /* MainView.swift */,
 			);
 			path = anthe;
+			sourceTree = "<group>";
+		};
+		707CC00527647BE600F717FF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				707CC00827647D0300F717FF /* Photos.swift */,
+				707CC00A27647D5900F717FF /* File.swift */,
+				707CC00C27647E1800F717FF /* FileManager.swift */,
+				707CC00E27647E8700F717FF /* String+extension.swift */,
+				707CC01027647EC700F717FF /* Utility.swift */,
+				707CC01227647F1900F717FF /* Shared.swift */,
+				707CC0142764802B00F717FF /* Ajax.swift */,
+				707CC0162764811800F717FF /* ImageFile.swift */,
+				7023D59C2764BE430036784A /* NFCReader.swift */,
+				7023D59F2764E3BA0036784A /* ApexRemote.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +191,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				707CBFF227647AEF00F717FF /* ViewController.swift in Sources */,
+				707CC00227647B9200F717FF /* DetailView.swift in Sources */,
+				707CC01127647EC700F717FF /* Utility.swift in Sources */,
 				707CBFEE27647AEF00F717FF /* AppDelegate.swift in Sources */,
+				707CC0172764811800F717FF /* ImageFile.swift in Sources */,
+				7023D5A227650E500036784A /* LoadingView.swift in Sources */,
+				707CC00427647BA600F717FF /* MainView.swift in Sources */,
+				707CC01327647F1900F717FF /* Shared.swift in Sources */,
+				7023D59D2764BE430036784A /* NFCReader.swift in Sources */,
+				707CC00B27647D5900F717FF /* File.swift in Sources */,
+				707CC00F27647E8700F717FF /* String+extension.swift in Sources */,
+				7023D5A4276557B70036784A /* StudentView.swift in Sources */,
+				707CC00D27647E1800F717FF /* FileManager.swift in Sources */,
+				707CC0152764802B00F717FF /* Ajax.swift in Sources */,
+				7023D5A02764E3BA0036784A /* ApexRemote.swift in Sources */,
 				707CBFF027647AEF00F717FF /* SceneDelegate.swift in Sources */,
+				707CC00927647D0300F717FF /* Photos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,14 +353,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = anthe/anthe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PPTMYXB2L2;
+				DEVELOPMENT_TEAM = 4WQ2T93P22;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = anthe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "クラウド保育園";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "App is trying to scan NFC using this device";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App is trying to access the Camera from this device";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App is trying to access the Photo Library from this device";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,11 +374,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.anthe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.antheapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,14 +387,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = anthe/anthe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PPTMYXB2L2;
+				DEVELOPMENT_TEAM = 4WQ2T93P22;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = anthe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "クラウド保育園";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "App is trying to scan NFC using this device";
+				INFOPLIST_KEY_NSCameraUsageDescription = "App is trying to access the Camera from this device";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "App is trying to access the Photo Library from this device";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,11 +408,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.anthe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.antheapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

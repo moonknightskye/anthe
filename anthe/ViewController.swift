@@ -7,13 +7,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UINavigationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        Shared.shared.ViewController = self
+
+        let mainView = MainView( frame: self.view.frame )
+        mainView.setup()
+        self.view.addSubview( mainView )
+        
+//        let studentView      = StudentView( frame: self.view.frame )
+//        do {
+//            let imageFile = try ImageFile( fileId: File.generateID(), uiimage: UIImage(named: "blackhole")!)
+//            studentView.setup(info: ["a":1] as! NSDictionary, imageFile: imageFile)
+//            self.view.addSubview( studentView )
+//        } catch _ as Error {}
     }
-
-
 }
-
