@@ -9,6 +9,7 @@ iOS NFCリーダー機能
 APEX REST経由でセールスフォースのレコードを参照、編集、削除
 
 デモ動画
+
 https://youtu.be/oWJPzTPapag
 
 https://youtu.be/wUZTucMBzpk
