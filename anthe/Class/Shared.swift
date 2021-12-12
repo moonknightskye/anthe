@@ -31,9 +31,9 @@ final class Shared: NSObject {
     var pushNotification:[AnyHashable : Any]?
     var access_token:String?
     
-    let username        = "admin@kenchanayo202112.demo"
-    let password        = "kenchanayo2021"
-    let clientId        = "3MVG95mg0lk4batglb1jjklLcg.ElOOcs_JHJnkCIfhUcnz6x.EFizSSJbCfzwll430lBIb38_nGkaf.qVf0Q"
-    let clientSecret    = "A8060E39956499AD7190F3E310B7D7C922884A2940A2BC99B3D24A4021DA6011"
-    let link            = "https://kenchanayo202112demo-dev-ed.my.salesforce.com"
+    let username        = "XXXX"
+    let password        = "XXXX"
+    let clientId        = "XXXXXXXXXXXXX"
+    let clientSecret    = "XXXXXXXXXXXXXX"
+    let link            = "https://xxxxxxx-dev-ed.my.salesforce.com"
 }
